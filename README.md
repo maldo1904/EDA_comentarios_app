@@ -1,40 +1,37 @@
-Análisis Exploratorio de Datos - Comentarios de la Aplicación 📊
+# Análisis Exploratorio de Datos (EDA) sobre Comentarios de una Aplicación
 
-Descripción:
+Este repositorio contiene el análisis exploratorio de datos (EDA) de los comentarios de una aplicación. El objetivo de este análisis es explorar diferentes características de los datos y generar visualizaciones para entender patrones, tendencias y relaciones entre las variables.
 
-Este proyecto realiza un análisis exploratorio de datos (EDA) sobre los comentarios de usuarios y sus calificaciones de una aplicación. A través de este análisis, se busca identificar patrones, tendencias, temas recurrentes en los comentarios y obtener conclusiones relevantes que puedan ayudar a mejorar la experiencia de los usuarios.
+## Descripción
 
-Objetivos:
+En este proyecto, se analizaron varias columnas del dataset, como la calificación, el director, el elenco, el país y la fecha de adición de los títulos. También se analizó la duración de los títulos y su relación con otras variables. Se llevaron a cabo las siguientes tareas:
 
-Explorar la distribución de las calificaciones y comentarios de los usuarios.
-Analizar el contenido de los comentarios en busca de tendencias, temas comunes y puntos de mejora.
-Identificar correlaciones entre las calificaciones y el sentimiento de los comentarios.
-Sugerir posibles acciones para mejorar la aplicación basada en los resultados obtenidos.
-Pasos del Proyecto:
+- **Limpieza de datos**: Se gestionaron valores nulos y se hicieron correcciones en los datos.
+- **Análisis de la duración de los títulos**: Se identificaron los títulos con mayor duración y la duración promedio por año.
+- **Distribución de las calificaciones**: Se analizaron las clasificaciones (ratings) más comunes en los datos.
+- **Análisis de los géneros**: Se desglosaron los géneros más frecuentes, observando tendencias como la prevalencia de "International Movies".
+- **Evolución de la duración de los títulos**: Se exploró cómo ha cambiado la duración promedio de los títulos a lo largo de los años.
 
-Carga y limpieza de datos:
-Cargar el dataset y tratar los valores nulos.
-Limpiar y preparar los datos para análisis.
-Análisis descriptivo:
-Realizar estadísticas descriptivas y visualizar la distribución de las calificaciones.
-Análisis de sentimientos:
-Analizar el sentimiento de los comentarios utilizando técnicas de procesamiento de lenguaje natural.
-Gráficos y visualizaciones:
-Crear visualizaciones interactivas para mostrar tendencias en los datos.
-Conclusiones:
-Identificar las áreas clave para mejorar la aplicación con base en los datos analizados.
-Tecnologías Utilizadas:
+## Tecnologías Utilizadas
 
-Python
-Pandas
-Matplotlib
-Seaborn
-NLTK
-Instrucciones:
+- **Python**
+  - Pandas
+  - Matplotlib
+  - Seaborn
 
-Clona el repositorio a tu máquina local:
-git clone https://github.com/tu_usuario/EDA_comentarios_app.git
-Asegúrate de tener todas las dependencias necesarias instaladas:
-pip install -r requirements.txt
-Ejecuta los notebooks en Jupyter para explorar los datos:
-jupyter notebook
+## Resultados
+
+- Se observó una fuerte tendencia al aumento en el número de títulos lanzados en los años más recientes.
+- Los géneros más populares incluyen *International Movies*, mientras que los *TV shows* son los menos vistos.
+- Las clasificaciones más comunes son *TV-MA* y *TV-14*.
+- La duración de los títulos varió significativamente a lo largo de los años, con una tendencia a títulos más cortos en tiempos recientes.
+
+## Requisitos
+
+- Python 3.x
+- Las librerías necesarias están listadas en el archivo `requirements.txt`:
+
+```txt
+pandas
+matplotlib
+seaborn
